@@ -1,7 +1,7 @@
         <footer class="site-footer">
             <div class="container">
                 
-                    <p>Copyright</p>
+                    <p>© 2020 Arcstress All rights reserved</p>
                 
             </div>
         </footer>
