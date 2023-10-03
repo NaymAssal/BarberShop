@@ -634,9 +634,39 @@ img {
     text-align: center;
 }
 
-.hero-up{
-    display: block;
-    text-align: left;
+.grid2x2 {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .grid2x2 > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+ 
+.box1, .box2{
+    width: 49%;
+} 
+
+
+
+  @media (max-width: 800px) {
+    .grid2x2{
+        flex-direction: column;
+    }
+    .box2{
+        order: 2;
+    }
+    
+}
+
+.box3{
+    flex: 1 0 100%;
+    height: 20em;
 }
 
 /* Services */

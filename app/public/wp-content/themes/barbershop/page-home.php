@@ -7,17 +7,11 @@
                 <main id="main" class="site-main">
                     <section class="hero")">
                         <div class="container">
-                            <div class="hero-title">
-                                <h1>Lorem ipsum</h1>
-                            </div>
-                            <div class="hero-p">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam veniam ratione nisi minima eaque porro pariatur beatae consequatur voluptatem quo explicabo non, mollitia aperiam nobis ipsum numquam doloribus sapiente illo!</p>
-                            </div>
-                            <div class="hero-images">
-                                <div class="img 1">A</div>
-                                <div class="img 2">B</div>
-                                <div class="img 3">C</div>
-                            </div>
+                            <div class="grid2x2">
+                                <div class="box box1"><h2>Lorem ipsum</h2></div>
+                                <div class="box box2"><div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam veniam ratione nisi minima eaque porro pariatur beatae consequatur voluptatem quo explicabo non, mollitia aperiam nobis ipsum numquam doloribus sapiente illo!</p></div></div>
+                                <div class="box box3"><div>Image area</div></div>
+                            </div>  
                         </div>
                     </section>
                     <section class="services">
