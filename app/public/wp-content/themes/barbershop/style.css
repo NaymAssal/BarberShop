@@ -455,26 +455,12 @@ img {
 }
 @media (min-width: 576px) {
     .container {
-        max-width: 540px;
+
         padding-right: 15px;
         padding-left: 15px;
     }
 }
-@media (min-width: 768px) {
-    .container {
-        max-width: 8000px;
-    }
-}
-@media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-}
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-    }
-}
+
 
 /************** HOME PAGE *****************/
 
@@ -647,80 +633,52 @@ img {
     color: black;
     text-align: center;
 }
-.hero-items{
-    padding: var( --wpdevs-light-padding );
-}
-.hero .overlay{
-    background: rgb(0 0 0 / 27%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.hero .hero-items h1{
-    margin-top: 0;
-    font-weight: normal;
-}
-.hero .hero-items a{
-    color: #FFFFFF;
-    padding: 15px 25px;
-    display: inline-block;
-    background: var( --wpdevs-light-blue );
-    margin: 20px 0 0;
-}
-.hero .hero-items a:hover{
-    background: var( --wpdevs-yellow );
-    transition: .5s all;
+
+.hero-up{
+    display: block;
+    text-align: left;
 }
 
 /* Services */
 .services{ 
-    background: var( --wpdevs-deep-blue ); 
-    padding: var( --wpdevs-big-padding ); 
-    color: #ffffff; 
+    background: black; 
+     
+    color: #ffffff;
+    
 }
+
 .services .container{
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+    flex-direction: row;
 }
-.services .container > * {
-    flex: 1 1 250px;
+
+
+
+.service-l, .service-r{
+    
+    width: 500px;
+    height: 500px;
+  
 }
-.services-item{
-    padding: var(--wpdevs-light-padding);
+
+.service-l{
+    order: 0;
 }
-.services-item p{
-    margin-bottom: 40px;
-}
-.services-item figure img{ 
-    background: var( --wpdevs-black-blue );
-    padding: 15px; 
-}
-.services h2{ 
-    text-align: center;
-    position: relative;  
-}
-.services h2::after{
-    content: '';
-    position: absolute;
-    background-color: var( --wpdevs-light-blue );
-    width: 35px;
-    height: 5px;
-    right: calc( 50% - 15px);
-    bottom: 0;
-}
-.services h4{
-    margin: 0;
-}
-@media (max-width: 768px) {
+
+
+
+
+
+@media (max-width: 800px) {
     .services .container{
         flex-direction: column;
-        padding: 0;
     }
-    .services-item{
-        max-width: 100%;
+    .service-l{
+        
+        order: 1;
     }
 }
+
 
 /* Home Blog */
 .home .home-blog{
