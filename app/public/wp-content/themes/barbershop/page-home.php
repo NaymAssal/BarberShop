@@ -57,13 +57,21 @@
                                 <h2>The Best Planning Price For You</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto explicabo ipsa des</p>
                             </div>
-                            <div class="prix-d">
-                                <div class="option"><div class="A">A</div></div>
-                                <div class="option"><div class="B">B</div></div>
-                                <div class="option"><div class="C">C</div></div>
-                            </div>
                         </div>
-                        
+                        <div class="car">
+                        <input type="radio" name="position" checked />
+                        <input type="radio" name="position" />
+                        <input type="radio" name="position" />
+                        <input type="radio" name="position" />
+                        <input type="radio" name="position" />
+                        <main id="carousel">
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                        </main>
+                        </div>
                     </section>
                     <section class="avis">
                         <h2>What Do They Think For Us</h2>
