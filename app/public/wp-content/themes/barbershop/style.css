@@ -634,6 +634,11 @@ img {
     text-align: center;
 }
 
+.hero .container{
+    display: flex;
+    align-items: center;
+}
+
 .grid2x2 {
     min-height: 100%;
     display: flex;
@@ -653,22 +658,33 @@ img {
     width: 49%;
 } 
 
+.box3{
+    flex: 1 0 100%;
+    height: 20em;
+}
 
 
   @media (max-width: 800px) {
     .grid2x2{
         flex-direction: column;
+        justify-content: center;
+        
     }
     .box2{
         order: 2;
     }
+
+    .box1, .box2{
+        width: 100%;
+    }
+
+    .box3{
+        height: 200px;
+    }
     
 }
 
-.box3{
-    flex: 1 0 100%;
-    height: 20em;
-}
+
 
 /* Services */
 .services{ 
@@ -767,6 +783,38 @@ img {
         
     }
     
+}
+
+/* Prix */
+
+.prix{
+    background: black; 
+     
+    color: #ffffff;
+}
+
+.prix .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.prix-d{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.option{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 /* Home Blog */

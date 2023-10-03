@@ -52,11 +52,18 @@
 
                     </section>
                     <section class="prix">
-                        <div class="prix-u">
-                            <h2>The Best Planning Price For You</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto explicabo ipsa des</p>
+                        <div class="container">
+                            <div class="prix-u">
+                                <h2>The Best Planning Price For You</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto explicabo ipsa des</p>
+                            </div>
+                            <div class="prix-d">
+                                <div class="option"><div class="A">A</div></div>
+                                <div class="option"><div class="B">B</div></div>
+                                <div class="option"><div class="C">C</div></div>
+                            </div>
                         </div>
-                        <div class="prix-d">les prix</div>
+                        
                     </section>
                     <section class="avis">
                         <h2>What Do They Think For Us</h2>
