@@ -639,6 +639,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-around;
   }
 
   .grid2x2 > div {
@@ -688,7 +689,10 @@ img {
     
     width: 500px;
     height: 500px;
-  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .service-l{
@@ -702,13 +706,68 @@ img {
 @media (max-width: 800px) {
     .services .container{
         flex-direction: column;
+        align-items: center;
     }
     .service-l{
         
         order: 1;
     }
+    
 }
 
+/* Step */
+.step{
+    background-size: cover;
+    background-position: center center;
+    color: black;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.step .container {
+    min-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height:100%;
+  }
+
+  .step3{
+    flex: 0 0 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .step1, .step2{
+    flex: 0 0 50%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  @media (max-width: 800px) {
+    .step .container{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .step2{
+        order: 2;
+        
+    }
+    .step1, .step2, .step3{
+        height: 300px;
+        flex: none;
+        
+    }
+    
+}
 
 /* Home Blog */
 .home .home-blog{
@@ -1129,5 +1188,22 @@ a img.aligncenter {
     background-color: #000000;
     color: #ebebeb;
     width: 100%;
+}
+
+section{
+    height: 500px;
+}
+
+section.top-bar {
+    height: auto;
+}
+
+@media (max-width: 800px) {
+    section{
+        height: 900px;
+        padding: 20px;
+    }
+    
+    
 }
 

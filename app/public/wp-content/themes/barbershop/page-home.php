@@ -17,7 +17,12 @@
                     <section class="services">
                         <div class="container">
                             <div class="service-l">
-                                <h3>- Traitement <br/>- Good price <br/>- Good Quality</h3>
+                                <h3><ul>
+                                    <li>Traitement</li>
+                                    <li>Good price</li>
+                                    <li>Good Quality</li>
+                                </ul></h3>
+
                             </div>
                             <div class="service-r">
                                 <h2>We Have Features And Services For Fans Of Cukurin</h2>
@@ -27,13 +32,23 @@
                         </div>
                     </section>
                     <section class="step">
-                        <div class="step-l">
-                            <h2>Step By Step We Cut Hair With Professional Stylist</h2>
-                            <p>- Wash hair<br/>- Cut hair<br/>-Hair coloring</p>
+                        <div class="container">
+                            <div class="step1">
+                                <h2>Step By Step We Cut Hair With Professional Stylist</h2>
+                                
+                            </div>
+                            <div class="step2">
+                                <ul>
+                                    <li>Wash hair</li>
+                                    <li>Cut hair</li>
+                                    <li>Hair coloring</li>
+                                </ul>
+                            </div>
+                            <div class="step3">
+                                <p>IMAGE</p>
+                            </div>
                         </div>
-                        <div class="step-r">
-                            <p>IMAGE</p>
-                        </div>
+                        
 
                     </section>
                     <section class="prix">
