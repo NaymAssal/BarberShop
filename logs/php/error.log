@@ -52,3 +52,11 @@ Stack trace:
 [04-Oct-2023 06:51:17 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-includes\class-wp-customize-widgets.php on line 905
 [04-Oct-2023 06:55:37 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-includes\class-wp-customize-widgets.php on line 905
 [04-Oct-2023 06:56:05 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[04-Oct-2023 07:04:06 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[04-Oct-2023 07:04:15 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[04-Oct-2023 07:06:11 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[04-Oct-2023 07:07:49 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[04-Oct-2023 07:11:23 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[04-Oct-2023 07:14:09 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[04-Oct-2023 07:14:34 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[04-Oct-2023 07:15:09 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-includes\class-wp-customize-widgets.php on line 905
