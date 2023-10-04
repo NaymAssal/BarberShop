@@ -39,9 +39,9 @@
                             </div>
                             <div class="step2">
                                 <ul>
-                                    <li>Wash hair</li>
+                                    <h3><li>Wash hair</li>
                                     <li>Cut hair</li>
-                                    <li>Hair coloring</li>
+                                    <li>Hair coloring</li></h3>
                                 </ul>
                             </div>
                             <div class="step3">
@@ -59,24 +59,38 @@
                             </div>
                         </div>
                         <div class="car">
-                        <input type="radio" name="position" checked />
+                        <input type="radio" name="position" />
+                        <input type="radio" name="position" checked/>
                         <input type="radio" name="position" />
                         <input type="radio" name="position" />
-                        <input type="radio" name="position" />
-                        <input type="radio" name="position" />
+                        
                         <main id="carousel">
                             <div class="item"></div>
                             <div class="item"></div>
                             <div class="item"></div>
                             <div class="item"></div>
-                            <div class="item"></div>
+                            
                         </main>
                         </div>
                     </section>
                     <section class="avis">
-                        <h2>What Do They Think For Us</h2>
-                        <p>Avis</p><br/>
-                        <p>Profil   <-  -></p>
+                        <div class="container">
+                            <div>
+                                <h2>What Do They Think For Us</h2>
+                            </div>
+                            <div class="com">
+                                <div class="contenu-com">
+
+                                </div>
+                                <div class="contenu-profil">
+                                    <div class="profil">Naym Assal</div>
+                                    <div class="fleches"><< >></div>
+                                </div>
+                                
+                                
+                            </div>
+                            
+                        </div>  
                     </section>
                 </main>
             </div>

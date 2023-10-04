@@ -15,3 +15,11 @@ AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
 AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f45d:3634:77d5:2a18. Set the 'ServerName' directive globally to suppress this message
 AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f45d:3634:77d5:2a18. Set the 'ServerName' directive globally to suppress this message
 [Tue Oct 03 08:01:34.050352 2023] [mpm_winnt:notice] [pid 19400:tid 880] AH00354: Child: Starting 64 worker threads.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f45d:3634:77d5:2a18. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 04 07:58:51.454538 2023] [core:warn] [pid 14008:tid 768] AH00098: pid file C:/Users/naym5/AppData/Roaming/Local/run/cgSGyrTaK/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 04 07:58:51.458943 2023] [mpm_winnt:notice] [pid 14008:tid 768] AH00455: Apache/2.4.43 (Win32) mod_fcgid/2.3.9a configured -- resuming normal operations
+[Wed Oct 04 07:58:51.458943 2023] [mpm_winnt:notice] [pid 14008:tid 768] AH00456: Server built: Apr 21 2020 13:46:54
+[Wed Oct 04 07:58:51.458943 2023] [core:notice] [pid 14008:tid 768] AH00094: Command line: 'C:\\Users\\naym5\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+8\\bin\\win32\\bin\\httpd.exe -d C:/Users/naym5/AppData/Roaming/Local/lightning-services/apache-2.4.43+8/bin/win32 -D FOREGROUND -f C:\\Users\\naym5\\AppData\\Roaming\\Local\\run\\cgSGyrTaK\\conf\\apache\\apache2.conf'
+[Wed Oct 04 07:58:51.464432 2023] [mpm_winnt:notice] [pid 14008:tid 768] AH00418: Parent: Created child process 1852
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f45d:3634:77d5:2a18. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f45d:3634:77d5:2a18. Set the 'ServerName' directive globally to suppress this message
