@@ -11,7 +11,7 @@ add_action( 'wp_enqueue_scripts', 'wpdevs_load_scripts');
 
 
 
-/*function wpdevs_config(){
+function wpdevs_config(){
 
     $textdomaine = 'wp-devs';
     load_theme_textdomain($textdomaine, get_template_directory() . '/languages/');
@@ -50,9 +50,9 @@ add_action('widgets_init', 'wpdevs_sidebars');
 function wpdevs_sidebars(){
     register_sidebar(
         array(
-            'name' => esc_html__('Blog Sidebar', 'wp-devs'),
-            'id' => 'sidebar-blog',
-            'description' => esc_html__('This is blog sidebar.', 'wp-devs'),
+            'name' => esc_html__('Sidebar', 'wp-devs'),
+            'id' => 'sidebar',
+            'description' => esc_html__('This is the sidebar.', 'wp-devs'),
             'before_widget' => '<div class="widget-wrapper">',
             'after_widget' => '</div>',
             'before_title' => '<h4 class="widget-title">',
@@ -60,7 +60,7 @@ function wpdevs_sidebars(){
 
         )
     );
-
+/*
     register_sidebar(
         array(
             'name' => esc_html__('Page Sidebar', 'wp-devs'),
@@ -120,3 +120,4 @@ if(! function_exists('wp_body_open')){
     }
 }
 */
+}

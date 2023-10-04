@@ -1076,6 +1076,31 @@ section.prix{
 
 }
 
+/* Foot */
+
+.foot{
+    background-color: #000000;
+    color: white;
+    height: auto;
+}
+
+.foot .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
 body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+  .sidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
   }
