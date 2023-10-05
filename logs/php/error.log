@@ -105,3 +105,18 @@ Stack trace:
 [05-Oct-2023 11:42:48 UTC] PHP Warning:  Undefined array key 3 in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 41
 [05-Oct-2023 11:43:08 UTC] PHP Warning:  Undefined array key 3 in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 40
 [05-Oct-2023 11:43:08 UTC] PHP Warning:  Undefined array key 3 in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 41
+[05-Oct-2023 13:08:59 UTC] PHP Warning:  Undefined array key 2 in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 44
+[05-Oct-2023 13:08:59 UTC] PHP Warning:  Undefined array key 2 in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 45
+[05-Oct-2023 13:10:37 UTC] PHP Warning:  Undefined array key 1 in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 43
+[05-Oct-2023 13:10:48 UTC] PHP Warning:  Undefined array key 1 in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 43
+[05-Oct-2023 13:10:49 UTC] PHP Warning:  Undefined array key 1 in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 43
+[05-Oct-2023 13:10:54 UTC] PHP Warning:  Undefined array key 1 in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 43
+[05-Oct-2023 13:10:59 UTC] PHP Warning:  Undefined array key 1 in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 43
+[05-Oct-2023 13:11:01 UTC] PHP Warning:  Undefined array key 1 in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 43
+[05-Oct-2023 13:11:51 UTC] PHP Warning:  Attempt to read property "count" on array in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 41
+[05-Oct-2023 13:23:33 UTC] PHP Parse error:  syntax error, unexpected identifier "esc_html", expecting ":" in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 17
+[05-Oct-2023 13:24:15 UTC] PHP Warning:  Undefined variable $hero_button_link in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 51
+[05-Oct-2023 13:25:22 UTC] PHP Warning:  Undefined variable $hero_button_link in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 51
+[05-Oct-2023 13:25:32 UTC] PHP Warning:  Undefined variable $hero_button_link in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 51
+[05-Oct-2023 13:25:44 UTC] PHP Warning:  Undefined variable $hero_button_link in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 51
+[05-Oct-2023 13:25:52 UTC] PHP Warning:  Undefined variable $hero_button_link in C:\Users\naym5\Local Sites\BarberShop\app\public\wp-content\themes\barbershop\page-home.php on line 51

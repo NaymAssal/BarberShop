@@ -14,7 +14,7 @@
                         <div class="container">
                             <div class="grid2x2">
                                 <div class="box box1"><h2><?php echo esc_html($hero_title);?></h2></div>
-                                <div class="box box2"><div><p><?php echo esc_html($hero_subtitle);?></p></div></div>
+                                <div class="box box2"><div><p><?php echo nl2br(esc_html($hero_subtitle));?></p></div></div>
                                 <div class="box box3"><div><img class="image1" src="<?php echo esc_url($hero_image);?>" ></div></div>
                             </div>  
                         </div>
@@ -23,37 +23,32 @@
                         <div class="container">
                             <div class="service-l">
                                 <h3>
-                                <ul>
-                                 <?php
-                                 $services_title = get_theme_mod('set_services_title', __('Please type some title', 'wp-devs'));
-                                 $services_subtitle = get_theme_mod('set_services_subtitle', __('Please type some subtitle', 'wp-devs'));
-                                 $services_button_link = get_theme_mod('set_services_button_link', '#');
-                                 $services_button_text = get_theme_mod('set_services_button_text', __('Learn More', 'wp-devs'));
-                                 
-                                 $services_image = wp_get_attachment_url( get_theme_mod('set_services_image'));
-                                 $services_number_bullet = get_theme_mod('set_services_number_bullet', 3);
-                                 $services_bullet = get_theme_mod('set_services_bullet');
-                                 $bullet = explode(",", ($services_bullet));
-                                 echo var_dump($services_bullet);
-                                 if (! $bullet == null):
-                                 for($i=3; $i<$services_number_bullet; $i+=1):
-                                    echo $bullet[3];
-                                    echo "<li>$bullet[$i]</li>";
-                                 endfor;
-                                 endif;
-
-                                 ?>   
                                 
-                                    <li>Traitement</li>
-                                    <li>Good price</li>
-                                    <li>Good Quality</li>
-                                </ul></h3>
+                                    <?php
+                                    $services_title = get_theme_mod('set_services_title', __('Please type some title', 'wp-devs'));
+                                    $services_subtitle = get_theme_mod('set_services_subtitle', __('Please type some subtitle', 'wp-devs'));
+                                    $services_button_link = get_theme_mod('set_services_button_link', '#');
+                                    $services_button_text = get_theme_mod('set_services_button_text', __('Learn More', 'wp-devs'));
+                                    
+                                    $services_image = wp_get_attachment_url( get_theme_mod('set_services_image'));
+                                    $services_bullet = get_theme_mod('set_services_bullet','First service, Second service, Third Service');
+                                    $bullet = explode(",", ($services_bullet));
+
+                                    ?>
+                                    <ul>
+                                    <?php            
+                                        for($i=0; $i<count($bullet); $i+=1):
+                                            echo "<li>$bullet[$i]</li>";
+                                        endfor;
+                                    ?>   
+                                    </ul>
+                                </h3>
 
                             </div>
                             <div class="service-r">
-                                <div><h2>We Have Features And Services For Fans Of Cukurin</h2></div>
-                                <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iure quibusdam elige</p></div>
-                                <div><button class="myButton">Explore now</button></div>
+                                <div><h2><?php echo esc_html($services_title);?></h2></div>
+                                <div><p><?php echo nl2br(esc_html($services_subtitle)); ?></p></div>
+                                <div><a href="<?php echo esc_url($hero_button_link)?>"><button class="myButton"><?php echo esc_html($services_button_text);?></button></a></div>
                             </div>
                         </div>
                     </section>

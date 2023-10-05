@@ -241,22 +241,7 @@ function wpdevs_customizer( $wp_customize ){
                 )
             );
     
-            // Number of Bullet points
-            $wp_customize->add_setting( 
-                'set_services_number_bullet', 
-                array(
-                    'type' => 'theme_mod',
-                    'sanitize_callback' => 'absint'
-            ) );
-
-            $wp_customize->add_control( 
-                'set_services_number_bullet', 
-                array(
-                    'label' => __('Number of bullet points', 'barbershop'),
-                    'description' => __('How many bullet points to display in the services section?', 'barbershop'),			
-                    'section' => 'sec_services',
-                    'type' => 'number'
-            ) );
+            
 
             // Bullet points
             $wp_customize->add_setting( 
