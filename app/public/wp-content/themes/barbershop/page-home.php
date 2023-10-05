@@ -30,8 +30,8 @@
                                     $services_button_link = get_theme_mod('set_services_button_link', '#');
                                     $services_button_text = get_theme_mod('set_services_button_text', __('Learn More', 'wp-devs'));
                                     
-                                    $services_image = wp_get_attachment_url( get_theme_mod('set_services_image'));
-                                    $services_bullet = get_theme_mod('set_services_bullet','First service, Second service, Third Service');
+                                    
+                                    $services_bullet = get_theme_mod('set_services_bullet','First service, Second service, Third service');
                                     $bullet = explode(",", ($services_bullet));
 
                                     ?>
@@ -54,19 +54,31 @@
                     </section>
                     <section class="step">
                         <div class="container">
+                        <?php
+                                    $step_title = get_theme_mod('set_step_title', __('Please type some title', 'barbershop'));
+                                    $step_bullet = get_theme_mod('set_step_bullet','First step, Second step, Third step');
+                                    $bullet = explode(",", ($step_bullet));
+                                    $step_image = wp_get_attachment_url( get_theme_mod('set_step_image'));
+
+                                    ?>
+                                    
                             <div class="step1">
-                                <h2>Step By Step We Cut Hair With Professional Stylist</h2>
+                                <h2><?php echo esc_html($step_title);?></h2>
                                 
                             </div>
                             <div class="step2">
+                            <h3>
                                 <ul>
-                                    <h3><li>Wash hair</li>
-                                    <li>Cut hair</li>
-                                    <li>Hair coloring</li></h3>
+                                    <?php            
+                                        for($i=0; $i<count($bullet); $i+=1):
+                                            echo "<li>$bullet[$i]</li>";
+                                        endfor;
+                                    ?> 
                                 </ul>
+                            <h3>
                             </div>
                             <div class="step3 image2">
-                                Image area
+                                <img class="image1" src="<?php echo esc_url($step_image);?>" >
                             </div>
                         </div>
                         
