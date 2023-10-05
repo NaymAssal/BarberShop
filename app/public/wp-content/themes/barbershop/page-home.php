@@ -10,7 +10,7 @@
                             <div class="grid2x2">
                                 <div class="box box1"><h2>Lorem ipsum</h2></div>
                                 <div class="box box2"><div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam veniam ratione nisi minima eaque porro pariatur beatae consequatur voluptatem quo explicabo non, mollitia aperiam nobis ipsum numquam doloribus sapiente illo!</p></div></div>
-                                <div class="box box3 image"><div>Image area</div></div>
+                                <div class="box box3 image1"><div>Image area</div></div>
                             </div>  
                         </div>
                     </section>
@@ -25,9 +25,9 @@
 
                             </div>
                             <div class="service-r">
-                                <h2>We Have Features And Services For Fans Of Cukurin</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iure quibusdam elige</p>
-                                <button class="myButton">Explore now</button>
+                                <div><h2>We Have Features And Services For Fans Of Cukurin</h2></div>
+                                <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iure quibusdam elige</p></div>
+                                <div><button class="myButton">Explore now</button></div>
                             </div>
                         </div>
                     </section>
@@ -44,7 +44,7 @@
                                     <li>Hair coloring</li></h3>
                                 </ul>
                             </div>
-                            <div class="step3 image">
+                            <div class="step3 image2">
                                 Image area
                             </div>
                         </div>
@@ -94,9 +94,9 @@
                     </section>
                     <section class="foot">
                         <div class="container">
-                            <h2>Get Our Free Pounch Cukurib Just For You</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quod quis iusto doloremque</p>
-                            <button class="myButton">Subscribe Now</button>
+                            <div><h2>Get Our Free Pounch Cukurib Just For You</h2></div>
+                            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quod quis iusto doloremque</p></div>
+                            <div><button class="myButton">Subscribe Now</button></div>
                         </div>
                     </section>
                 </main>

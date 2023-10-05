@@ -637,6 +637,7 @@ img {
 .hero .container{
     display: flex;
     align-items: center;
+    height: 100%;
 }
 
 .grid2x2 {
@@ -726,11 +727,13 @@ img {
     .services .container{
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .service-l{
         
         order: 1;
     }
+    
     
 }
 
@@ -1063,6 +1066,9 @@ section.prix{
         height: 1000px;
         padding: 20px;
     }
+    .foot .container > div{
+        margin: 10px;        
+    }
 }
 
 @media (max-width: 480px) {
@@ -1077,7 +1083,10 @@ section.prix{
         margin: 0;
     }
     h2{
-        font-size: 35px;
+        font-size: 30px;
+    }
+    .service-r > div{
+        margin: 10px;        
     }
     
 
@@ -1136,12 +1145,16 @@ body {
 	top:1px;
 }
 
-.image{
+.image1,.image2{
     background-color: gold;
     width: 50%;
 
     padding: 5px;
 
+}
+
+.image1{
+    height: 500px;
 }
         
 @media (max-width: 780px) {
