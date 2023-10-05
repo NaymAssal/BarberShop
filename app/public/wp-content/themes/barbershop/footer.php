@@ -4,7 +4,7 @@
                 <div class="sidebar"><?php get_sidebar();?></div>
                 <div class="container">
                     
-                        <p>© 2020 Arcstress All rights reserved</p>
+                        <?php echo get_theme_mod('set_copyright','© 2020 Arcstress All rights reserved');?>
                     
                 </div>
             </section>

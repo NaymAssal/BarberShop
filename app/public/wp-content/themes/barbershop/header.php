@@ -41,7 +41,7 @@
 
 
                     <div class="about">
-                        More About
+                        <button class="myButton">Contact Us</button>
                     </div>
 
                 </div>

@@ -1,11 +1,11 @@
 <?php 
 
-//require get_template_directory() . '/inc/customizer.php';
+require get_template_directory() . '/inc/customizer.php';
 
 function wpdevs_load_scripts(){
     wp_enqueue_style( 'barbeshop-style', get_stylesheet_uri(), array(), filemtime(get_template_directory() . '/style.css'), 'all');
     //wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap', array(), null);
-    //wp_enqueue_script( 'dropdown', get_template_directory_uri() . '/js/dropdown.js', array(), '1.0', true );
+    wp_enqueue_script( 'dropdown', get_template_directory_uri() . '/js/dropdown.js', array(), '1.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'wpdevs_load_scripts'); 
 
@@ -13,7 +13,7 @@ add_action( 'wp_enqueue_scripts', 'wpdevs_load_scripts');
 
 function wpdevs_config(){
 
-    $textdomaine = 'wp-devs';
+    $textdomaine = 'barbershop';
     load_theme_textdomain($textdomaine, get_template_directory() . '/languages/');
 
     register_nav_menus(
@@ -50,9 +50,9 @@ add_action('widgets_init', 'wpdevs_sidebars');
 function wpdevs_sidebars(){
     register_sidebar(
         array(
-            'name' => esc_html__('Sidebar', 'wp-devs'),
+            'name' => esc_html__('Sidebar', 'barbershop'),
             'id' => 'sidebar',
-            'description' => esc_html__('This is the sidebar.', 'wp-devs'),
+            'description' => esc_html__('This is the sidebar.', 'barbershop'),
             'before_widget' => '<div class="widget-wrapper">',
             'after_widget' => '</div>',
             'before_title' => '<h4 class="widget-title">',

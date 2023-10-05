@@ -646,6 +646,7 @@ img {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    width: 100%;
   }
 
   .grid2x2 > div {
@@ -654,14 +655,24 @@ img {
     justify-content: center;
     flex-direction: column;
   }
+
+  .image1{
+    max-height:100%;
+    max-width:100%;
+    
+    object-fit: contain; 
+  }
+
+  
  
 .box1, .box2{
     width: 49%;
+    margin-top: 20px;
 } 
 
 .box3{
     flex: 1 0 100%;
-    height: 20em;
+    height: 100%;
 }
 
 
@@ -1146,16 +1157,13 @@ body {
 }
 
 .image1,.image2{
-    background-color: gold;
+
     width: 50%;
 
     padding: 5px;
 
 }
 
-.image1{
-    height: 500px;
-}
         
 @media (max-width: 780px) {
     .box3{
@@ -1166,9 +1174,10 @@ body {
         flex-direction: column;
         align-items: center;
     }
-    .image{
+    .image1{
         width: 100%;
     }
+ 
     
     
 

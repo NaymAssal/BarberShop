@@ -6,18 +6,44 @@
             <div id="primary" class="content-area">
                 <main id="main" class="site-main">
                     <section class="hero")">
+                    <?php 
+                    $hero_title = get_theme_mod('set_hero_title', __('Please type some title', 'barbershop'));
+                    $hero_subtitle = get_theme_mod('set_hero_subtitle', __('Please type some subtitle', 'barbershop'));
+                    $hero_image = wp_get_attachment_url( get_theme_mod('set_hero_image'));
+                    ?>
                         <div class="container">
                             <div class="grid2x2">
-                                <div class="box box1"><h2>Lorem ipsum</h2></div>
-                                <div class="box box2"><div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam veniam ratione nisi minima eaque porro pariatur beatae consequatur voluptatem quo explicabo non, mollitia aperiam nobis ipsum numquam doloribus sapiente illo!</p></div></div>
-                                <div class="box box3 image1"><div>Image area</div></div>
+                                <div class="box box1"><h2><?php echo esc_html($hero_title);?></h2></div>
+                                <div class="box box2"><div><p><?php echo esc_html($hero_subtitle);?></p></div></div>
+                                <div class="box box3"><div><img class="image1" src="<?php echo esc_url($hero_image);?>" ></div></div>
                             </div>  
                         </div>
                     </section>
                     <section class="services">
                         <div class="container">
                             <div class="service-l">
-                                <h3><ul>
+                                <h3>
+                                <ul>
+                                 <?php
+                                 $services_title = get_theme_mod('set_services_title', __('Please type some title', 'wp-devs'));
+                                 $services_subtitle = get_theme_mod('set_services_subtitle', __('Please type some subtitle', 'wp-devs'));
+                                 $services_button_link = get_theme_mod('set_services_button_link', '#');
+                                 $services_button_text = get_theme_mod('set_services_button_text', __('Learn More', 'wp-devs'));
+                                 
+                                 $services_image = wp_get_attachment_url( get_theme_mod('set_services_image'));
+                                 $services_number_bullet = get_theme_mod('set_services_number_bullet', 3);
+                                 $services_bullet = get_theme_mod('set_services_bullet');
+                                 $bullet = explode(",", ($services_bullet));
+                                 echo var_dump($services_bullet);
+                                 if (! $bullet == null):
+                                 for($i=3; $i<$services_number_bullet; $i+=1):
+                                    echo $bullet[3];
+                                    echo "<li>$bullet[$i]</li>";
+                                 endfor;
+                                 endif;
+
+                                 ?>   
+                                
                                     <li>Traitement</li>
                                     <li>Good price</li>
                                     <li>Good Quality</li>
